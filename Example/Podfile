@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MPLibrary_Example' do
+  pod 'MPLibrary', :path => '../'
+
+  target 'MPLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
