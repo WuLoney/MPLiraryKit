@@ -13,9 +13,17 @@
 		444AB632C9313674437B916A93F673DE /* Pods-MPLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FED8789479C305D5E83775694847A8 /* Pods-MPLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		544A4DC0C9FBB92072411CDEA01B9E4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6DF1A5791585C7D4216C4CA18C5C324A /* Pods-MPLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 063F77235C91F679F87AFA6086B57924 /* Pods-MPLibrary_Example-dummy.m */; };
+<<<<<<< HEAD
 		7AC2437223C0AE22EBC6D37CE0AA0E2A /* Pods-MPLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9586B62A6166D7A253FBBAA095992983 /* Pods-MPLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F375A5ED80F823DF2FF31F7DCEC08EC /* MPLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCC866C8C670446C063CB4226A49C81 /* MPLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5751657D166D2E8F2D3578FB6AA2FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+=======
+		6F59FC60A2682D8D8B67B42C04D0B1F0 /* CloudViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CE82C33B4A1CD066DBEFA0D6F3545B /* CloudViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AC2437223C0AE22EBC6D37CE0AA0E2A /* Pods-MPLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9586B62A6166D7A253FBBAA095992983 /* Pods-MPLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F375A5ED80F823DF2FF31F7DCEC08EC /* MPLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCC866C8C670446C063CB4226A49C81 /* MPLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5751657D166D2E8F2D3578FB6AA2FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D880C079A8E285FAE17D428AEF846E7A /* CloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F693B0D1B0CD214F7CB13F4409E6C63E /* CloudViewController.m */; };
+>>>>>>> 提交代码库
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +48,11 @@
 		083ECB80BF14332CB5120294BD451992 /* Pods-MPLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0B1282C829EC674E54711684A4702A30 /* Pods-MPLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MPLibrary_Example.modulemap"; sourceTree = "<group>"; };
 		17C431837A0D457CB46401A4C189862A /* Pods-MPLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		1899B1AA4BDB9E2A014D7ACB36325E47 /* MPLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		1899B1AA4BDB9E2A014D7ACB36325E47 /* MPLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MPLibrary.framework; path = MPLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> 提交代码库
 		1B4226F1F1C15805772BBA0E714C07C1 /* MPLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPLibrary.xcconfig; sourceTree = "<group>"; };
 		1BE7BF22B593BA68F0AD34DD4C8CB75B /* Pods-MPLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MPLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		24AAC8EF6A0FEEA2119643C5B3F34C46 /* Pods-MPLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPLibrary_Example-Info.plist"; sourceTree = "<group>"; };
@@ -48,6 +60,7 @@
 		31FED8789479C305D5E83775694847A8 /* Pods-MPLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		49525E41FBAD1BC7ECA82A01E1FC2781 /* Pods-MPLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		4EA3A17F9965B2C13ECF8C0BF71C29C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		528885D777075C72D1ECC26B80AA4733 /* Pods-MPLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5B50B5DC5CE52F1A45DAA23A69EA9038 /* Pods-MPLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -66,6 +79,28 @@
 		D4CEC0A5199D569E7240E15BFCB5894F /* MPLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MPLibrary-Info.plist"; sourceTree = "<group>"; };
 		E06C0343CD2F8FC38349E8F464A1A9F4 /* Pods-MPLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F383B5CD79F735B1E9FEF7D12864B5C9 /* MPLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPLibrary-prefix.pch"; sourceTree = "<group>"; };
+=======
+		4EA3A17F9965B2C13ECF8C0BF71C29C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		528885D777075C72D1ECC26B80AA4733 /* Pods-MPLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B50B5DC5CE52F1A45DAA23A69EA9038 /* Pods-MPLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		60CAD756569D17E1AFC49D3314CCE9D6 /* Pods-MPLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61434A9CBF213E82B2843F7B790E5C80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		61BA846A83CAFCCA55222134E912B53E /* Pods-MPLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D38DA7077837CFD6F9342CD104E929D /* MPLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MPLibrary.modulemap; sourceTree = "<group>"; };
+		7FCC866C8C670446C063CB4226A49C81 /* MPLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPLibrary-umbrella.h"; sourceTree = "<group>"; };
+		82CE82C33B4A1CD066DBEFA0D6F3545B /* CloudViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudViewController.h; path = MPLibrary/Classes/CloudViewController.h; sourceTree = "<group>"; };
+		93C23FEC568535CAA3C51715000AED13 /* Pods-MPLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9586B62A6166D7A253FBBAA095992983 /* Pods-MPLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2A7F3F76A08A2B87C49F64A046A8BB /* Pods-MPLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B1E004D26C94DC7B23E317D56574A1B5 /* Pods_MPLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MPLibrary_Tests.framework; path = "Pods-MPLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BCA25CFEF97C215857B7466B92540D /* MPLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MPLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3F331DE192EF3FC97D86E91D1EEF907 /* Pods_MPLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MPLibrary_Example.framework; path = "Pods-MPLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CEC0A5199D569E7240E15BFCB5894F /* MPLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MPLibrary-Info.plist"; sourceTree = "<group>"; };
+		E06C0343CD2F8FC38349E8F464A1A9F4 /* Pods-MPLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F383B5CD79F735B1E9FEF7D12864B5C9 /* MPLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPLibrary-prefix.pch"; sourceTree = "<group>"; };
+		F693B0D1B0CD214F7CB13F4409E6C63E /* CloudViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CloudViewController.m; path = MPLibrary/Classes/CloudViewController.m; sourceTree = "<group>"; };
+>>>>>>> 提交代码库
 		F80912CB87B77889697530B011DD8625 /* MPLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPLibrary-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +168,11 @@
 		274BF78AB1FAE6FEF04D27B0506D1341 /* MPLibrary */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+=======
+				82CE82C33B4A1CD066DBEFA0D6F3545B /* CloudViewController.h */,
+				F693B0D1B0CD214F7CB13F4409E6C63E /* CloudViewController.m */,
+>>>>>>> 提交代码库
 				0B69F14BA327054A55BDB890A361B6BB /* Pod */,
 				0C0A4D9C6584683686918697256D948E /* Support Files */,
 			);
@@ -233,6 +273,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+=======
+				6F59FC60A2682D8D8B67B42C04D0B1F0 /* CloudViewController.h in Headers */,
+>>>>>>> 提交代码库
 				9F375A5ED80F823DF2FF31F7DCEC08EC /* MPLibrary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +421,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+=======
+				D880C079A8E285FAE17D428AEF846E7A /* CloudViewController.m in Sources */,
+>>>>>>> 提交代码库
 				2853BCFFC0481515C8EFAB21B8A5BC0E /* MPLibrary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,7 +500,12 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+<<<<<<< HEAD
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+=======
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+>>>>>>> 提交代码库
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

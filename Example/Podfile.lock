@@ -1,0 +1,16 @@
+PODS:
+  - MPLibrary (1.0.0)
+
+DEPENDENCIES:
+  - MPLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  MPLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MPLibrary: 9183751913f796680ef61dfc989e9871d6f1e16e
+
+PODFILE CHECKSUM: 4902fd0155177b6c61b6b532f9022776ef160e88
+
+COCOAPODS: 1.7.5

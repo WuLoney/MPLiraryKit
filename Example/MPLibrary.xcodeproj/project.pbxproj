@@ -61,11 +61,11 @@
 		685B9C7809D401B8DEB89D96 /* Pods-MPLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-MPLibrary_Tests/Pods-MPLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		68F72C8718E050B00F9345E1 /* Pods_MPLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		787246E62D2590D08DAAD611 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		787246E62D2590D08DAAD611 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A50BCD52E094B9B645E6AD7F /* Pods-MPLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-MPLibrary_Example/Pods-MPLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D30BDB1D46F83568645B35BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F359D2E1C317ABF863D122B7 /* MPLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MPLibrary.podspec; path = ../MPLibrary.podspec; sourceTree = "<group>"; };
+		D30BDB1D46F83568645B35BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F359D2E1C317ABF863D122B7 /* MPLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MPLibrary.podspec; path = ../MPLibrary.podspec; sourceTree = "<group>"; };
 		F89938DF9A0CB90ADAB7A50B /* Pods-MPLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MPLibrary_Tests/Pods-MPLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				F89938DF9A0CB90ADAB7A50B /* Pods-MPLibrary_Tests.debug.xcconfig */,
 				685B9C7809D401B8DEB89D96 /* Pods-MPLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "1107984392@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = T3QLT73ZBK;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = A50BCD52E094B9B645E6AD7F /* Pods-MPLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T3QLT73ZBK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MPLibrary/MPLibrary-Prefix.pch";
 				INFOPLIST_FILE = "MPLibrary/MPLibrary-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 2961CC038DF2843D2C767E9B /* Pods-MPLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T3QLT73ZBK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MPLibrary/MPLibrary-Prefix.pch";
 				INFOPLIST_FILE = "MPLibrary/MPLibrary-Info.plist";
